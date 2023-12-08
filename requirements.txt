@@ -1,0 +1,11 @@
+colorama
+datasets
+
+markdown
+
+pyyaml
+
+sentencepiece
+typing_extensions
+PyNaCl 
+oobabot

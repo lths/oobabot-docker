@@ -1,0 +1,14 @@
+version: "3.34"
+services:
+  tgbot:
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - /../config:/config
+
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
